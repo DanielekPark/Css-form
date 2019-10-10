@@ -25,6 +25,7 @@ fieldset {
     border: 0;
 }
 
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -44,16 +45,31 @@ textarea{
     flex-wrap: wrap;
 }
 
-.news{
-    display:flex; 
-    flex-direction: column;
-    flex-grow: 1;
-    
+
+
+.item1{
+    display: inline-block; 
 }
 
+.item2{
+    display: inline-block; 
+}
 
+/* .inl{
+    display: inline-block; 
+} */
+
+.box{
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.left{
+    text-align: left;
+}
 @media (min-width: 768px){
-    /* body{
+    body{
         display: flex;
         min-height:100vh;
         flex-direction: column; 
@@ -61,5 +77,15 @@ textarea{
     
     .container{
         flex-direction: row;
-    } */
+        justify-content: space-between;
+        
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea{
+        flex-grow: 1 85%;
+          
+    }
 }

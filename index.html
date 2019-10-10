@@ -52,28 +52,34 @@
         <fieldset>  
             <legend>Newsletter</legend> 
                 <p>Select the newsletters you would like to receive</p>
-                <div class="news">
-                    <input type="checkbox" value="html_news" name="select_newsletter" class="news">
-                    <label>HTML News</label>
+                <div class="">
+                   
+                        <input type="checkbox" value="html_news" name="select_newsletter" class="item1">
+                        <label class="item2">HTML News</label><br>
 
-                    <input type="checkbox" value="css_news" name="select_newsletter">
-                    <label>CSS News</label>
+                   
+                        <input type="checkbox" value="css_news" name="select_newsletter">
+                        <label>CSS News</label><br>
 
-                    <input type="checkbox" value="javascript_news" name="select_newsletter">
-                    <label>Javascript News</label>
-                </div>
+                    
+                        <input type="checkbox" value="javascript_news" name="select_newsletter">
+                        <label>Javascript News</label>
+                    
+                </div><br>
 
-            <legend>Newsletter format</legend>
-                
+            <legend>Newsletter format</legend><br>
+
                 <div>
-                    <input type="radio" id="html_format" value="html_newsletter" name="newsletter_format">
-                    <label for="html_format">HTML</label>
 
+                    <input type="radio" id="html_format" value="html_newsletter" name="newsletter_format">
+                    <label for="html_format">HTML</label><br>
+                   
                     <input id="plain_text" type="radio" value="text_newsletter" name="newsletter_format">
                     <label for="plain_text">Plain text</label>
-                </div>    
+                  
+                </div><br>    
 
-                <div class="container">
+                <div class="box">
                     <label for="topics">Other topics you'd like to hear about</label>
                     <textarea id="topics"></textarea>
                     <button type="submit">Sign up</button>
