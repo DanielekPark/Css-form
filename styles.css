@@ -11,7 +11,6 @@ h1{
 
 h1,
 h2,
-p,
 footer{
     text-align: center; 
 }
@@ -46,46 +45,25 @@ textarea{
 }
 
 
-
-.item1{
-    display: inline-block; 
-}
-
-.item2{
-    display: inline-block; 
-}
-
-/* .inl{
-    display: inline-block; 
-} */
-
 .box{
     display: flex; 
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.left{
-    text-align: left;
-}
+
 @media (min-width: 768px){
-    body{
-        display: flex;
-        min-height:100vh;
-        flex-direction: column; 
-    }   
-    
-    .container{
+    .wrapper1{
+        display: flex; 
         flex-direction: row;
-        justify-content: space-between;
-        
+        flex-wrap: wrap;
     }
 
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    textarea{
-        flex-grow: 1 85%;
-          
+    .item2 {
+        flex: 1 150px;
+        margin-left: 50px;
     }
+   
+
+
 }
