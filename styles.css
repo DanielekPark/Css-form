@@ -61,9 +61,36 @@ textarea{
 
     .item2 {
         flex: 1 150px;
-        margin-left: 50px;
+        margin-left: 74px;
     }
    
+    .item4 {
+        flex: 1 150px;
+        margin-left: 50px;
+    }
 
+    .item6 {
+        flex: 1 150px;
+        margin-left: 53px;
+    }
 
+    .item8 {
+        flex: 1 150px;
+        margin-left: 55px;
+    }
+
+    .item10 {
+        flex: 1 150px;
+        margin-left: 112px;
+    }
+
+    .item12 {
+        flex: 1 150px;
+        margin-left: 100px;
+    }
+
+    .item14 {
+        flex: 1 150px;
+        margin-left: 82px;
+    }
 }
