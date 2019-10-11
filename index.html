@@ -18,9 +18,9 @@
     </header>
 
     <form action="index.html" method="post">
-            <span>Contact Information</span><br>
-
-                <fieldset>
+            
+            <fieldset>
+                <legend>Contact Information</legend><br>
                  <div class="container">
                     <p class="wrapper1">
                     <label for="name" class="item1">Full Name</label><br>
@@ -67,41 +67,38 @@
         </fieldset>
 
         <fieldset>  
-            <span>Newsletter</span> 
+            <legend>Newsletter</legend> 
                 <p>Select the newsletters you would like to receive</p>
                 <div>
                    
-                        <input type="checkbox" value="html_news" name="select_newsletter" class="">
-                        <label class="">HTML News</label><br>
+                        <input type="checkbox" value="html_news" name="select_newsletter" id="html_news">
+                        <label for="html_news" class="">HTML News</label><br>
 
-                   
-                        <input type="checkbox" value="css_news" name="select_newsletter">
-                        <label>CSS News</label><br>
+                        <input type="checkbox" value="css_news" name="select_newsletter" id="css_news">
+                        <label for="css_news">CSS News</label><br>
 
-                    
-                        <input type="checkbox" value="javascript_news" name="select_newsletter">
-                        <label>Javascript News</label>
-                    
+                        <input type="checkbox" value="javascript_news" name="select_newsletter" id="javascript_news">
+                        <label for="javascript_news">Javascript News</label>
                 </div><br>
-
-            <span>Newsletter format</span><br>
-
-                <div>
-
+        </fieldset>            
+                
+                
+        <fieldset>
+            <legend>Newsletter format</legend><br>
+                
                     <input type="radio" id="html_format" value="html_newsletter" name="newsletter_format">
                     <label for="html_format">HTML</label><br>
                    
                     <input id="plain_text" type="radio" value="text_newsletter" name="newsletter_format">
-                    <label for="plain_text">Plain text</label>
-                  
-                </div><br>    
+                    <label for="plain_text">Plain text</label><br>
 
                 <div class="box">
                     <label for="topics" class="left">Other topics you'd like to hear about</label>
-                    <textarea id="topics"></textarea>
+                    <textarea id="topics" name="text_topic"></textarea>
                     <button type="submit">Sign up</button>
                 </div>
-        </fieldset>
+                </fieldset>
+                
        </form>  
 
 <footer>Copyright The Code Review</footer> 

@@ -56,14 +56,30 @@ textarea{
 .item6,
 .item8,
 .item10,
-.item12,
-.item14 {
+.item12 {
     width: 95%;
 }  
 
+.item14{
+    width: 50%;
+}
+
 input:focus,
 textarea:focus {
-   background-color: rgb(189, 189, 1);
+   background-color: rgb(224, 248, 10);
+  }
+
+  header {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  body {
+    font-family: "Big Shoulders Display";
   }
 
 @media (min-width: 768px){
@@ -104,7 +120,9 @@ textarea:focus {
     }
 
     .item14 {
-        flex: 1 150px;
+        flex: 0.01 25%; 
         margin-left: 82px;
     }
+
+    
 }
