@@ -51,6 +51,15 @@ textarea{
     flex-wrap: wrap;
 }
 
+.item2,
+.item4,
+.item6,
+.item8,
+.item10,
+.item12,
+.item14 {
+    width: 95%;
+}  
 
 @media (min-width: 768px){
     .wrapper1{
@@ -76,7 +85,7 @@ textarea{
 
     .item8 {
         flex: 1 150px;
-        margin-left: 55px;
+        margin-left: 45px;
     }
 
     .item10 {
