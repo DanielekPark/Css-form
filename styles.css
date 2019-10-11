@@ -61,6 +61,11 @@ textarea{
     width: 95%;
 }  
 
+input:focus,
+textarea:focus {
+   background-color: rgb(189, 189, 1);
+  }
+
 @media (min-width: 768px){
     .wrapper1{
         display: flex; 
