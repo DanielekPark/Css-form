@@ -82,47 +82,32 @@ textarea:focus {
     font-family: "Big Shoulders Display";
   }
 
-@media (min-width: 768px){
-    .wrapper1{
-        display: flex; 
-        flex-direction: row;
-        flex-wrap: wrap;
+  @media (min-width: 768px) {
+    .wrapper1 {
+      display: flex;
+      flex-direction: row;
     }
 
-    .item2 {
-        flex: 1 150px;
-        margin-left: 74px;
+    .wrapper1 label {
+      flex-basis: 25%;
+      margin: auto 0;
     }
-   
-    .item4 {
-        flex: 1 150px;
-        margin-left: 50px;
+    
+    .wrapper1 input {
+      flex-grow: 1;
+      flex-basis: 75%;
     }
-
-    .item6 {
-        flex: 1 150px;
-        margin-left: 53px;
+  
+    .wrapper1 select {
+      flex-grow: 1;
+      flex-basis: 75%;
+      width: 100%;
+      height: 40px;
     }
-
-    .item8 {
-        flex: 1 150px;
-        margin-left: 45px;
+  
+    #zip {
+      max-width: 25%;
     }
-
-    .item10 {
-        flex: 1 150px;
-        margin-left: 112px;
-    }
-
-    .item12 {
-        flex: 1 150px;
-        margin-left: 100px;
-    }
-
-    .item14 {
-        flex: 0.01 25%; 
-        margin-left: 82px;
-    }
-
+  }
     
 }
